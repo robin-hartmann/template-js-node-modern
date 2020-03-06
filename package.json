@@ -1,7 +1,7 @@
 {
-  "name": "template-ts-node",
+  "name": "template-js-node-modern",
   "version": "0.1.0",
-  "description": "Template for creating Node.js apps with TypeScript",
+  "description": "Template for creating Node.js apps with modern JavaScript",
   "author": "contact.robin.hartmann@gmail.com",
   "license": "MIT",
   "main": "dist/lib/lib.js",
@@ -24,6 +24,7 @@
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-eslint-comments": "^3.1.2",
     "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-unicorn": "^16.1.1",
@@ -39,10 +40,10 @@
     "prebuild-only": "npm run clean",
     "build-only": "tsc -p tsconfig.json",
     "clean": "shx rm -rf dist/",
-    "lint": "eslint . --ext .ts",
-    "start": "npm run start:ts",
-    "start:ts": "ts-node src/bin/bin.ts",
-    "start:js": "node dist/bin/bin.js",
+    "lint": "eslint . --ext .js",
+    "start": "npm run start:js",
+    "start:js": "ts-node src/bin/bin.js",
+    "start:js-transpiled": "node dist/bin/bin.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

@@ -2,6 +2,8 @@
   "include": ["src/**/*"],
   "compilerOptions": {
     /* Basic Options */
+    "allowJs": true,
+    "checkJs": true,
     "target": "ES2015",
     "module": "commonjs",
     "declaration": true,
@@ -13,7 +15,12 @@
     "downlevelIteration": true,
     "newLine": "lf",
     /* Strict Type-Checking Options */
-    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
     /* Additional Checks */
     "noUnusedLocals": true,
     "noUnusedParameters": true,

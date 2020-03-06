@@ -14,7 +14,6 @@
   "files.eol": "\n",
   "prettier.endOfLine": "lf",
   "prettier.requireConfig": true,
-  "typescript.format.semicolons": "remove",
-  "typescript.preferences.quoteStyle": "single",
-  "typescript.tsdk": "./node_modules/typescript/lib"
+  "javascript.format.semicolons": "remove",
+  "javascript.preferences.quoteStyle": "single"
 }

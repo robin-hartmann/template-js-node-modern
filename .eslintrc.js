@@ -18,6 +18,7 @@ module.exports = {
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:import/typescript',
+    'plugin:node/recommended',
     'plugin:promise/recommended',
     'plugin:unicorn/recommended',
     'prettier',
@@ -37,10 +38,7 @@ module.exports = {
     'no-prototype-builtins': 'off',
     '@typescript-eslint/no-floating-promises': 'error',
     // Makes no sense to allow type inferrence for expression parameters, but require typing the response
-    '@typescript-eslint/explicit-function-return-type': [
-      'error',
-      { allowExpressions: true, allowTypedFunctionExpressions: true }
-    ],
+    '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-use-before-define': [
       'error',
       { functions: false, classes: true, variables: true, typedefs: true }
@@ -48,6 +46,12 @@ module.exports = {
     // https://github.com/basarat/typescript-book/blob/master/docs/tips/defaultIsBad.md
     'import/prefer-default-export': 'off',
     'import/no-default-export': 'error',
+    'node/no-unsupported-features/es-syntax': [
+      'error',
+      {
+        ignores: ['modules']
+      }
+    ],
     // Common abbreviations are known and readable
     'unicorn/prevent-abbreviations': 'off'
   }
