@@ -1,13 +1,14 @@
-# template-ts-node
+# template-js-node-modern
 
-Template for creating Node.js apps with TypeScript
+Template for creating Node.js apps with modern JavaScript
 
 ## Features
 
-- Code in TypeScript
+- Code in modern JavaScript
+  - Transpiled down to `ES2015`
 - Automatic code checking with ESLint
 - Automatic code formatting and fixing with Prettier
-- Launch and debug TypeScript code using `ts-node`
+- Launch and debug modern JavaScript code using `ts-node`
 - Built-in tasks
 - Integration with Visual Studio Code
   - Matching settings
@@ -39,7 +40,7 @@ This project uses npm scripts for running tasks:
 # lint the project using eslint
 npm run lint
 
-# removes the generated folder
+# remove the generated folder
 npm run clean
 
 # build the project
@@ -50,18 +51,18 @@ npm run build
 # (includes clean)
 npm run build-only
 
-# run TypeScript code using ts-node
-npm run start:ts
+# run modern JavaScript code using ts-node
+npm run start:js
 # or just
 npm start
 
 # run generated JavaScript code using node
 # (does NOT include build)
-npm run start:js
+npm run start:js-transpiled
 
 # publish the project
 # (includes build)
 npm publish
 ```
 
-VS Code tasks for `lint`, `build`, `build-only`, `start:ts` and `start:js` are also included.
+VS Code tasks for `lint`, `build`, `build-only`, `start:js` and `start:js-transpiled` are also included.
