@@ -1,6 +1,6 @@
 # template-js-node-modern
 
-Template for creating Node.js apps with modern JavaScript
+Template for creating Node.js apps with modern JavaScript - transpiled down to ES2015
 
 ## Features
 
