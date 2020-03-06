@@ -38,7 +38,7 @@
       "problemMatcher": ["$eslint-stylish"]
     },
     {
-      "label": "Run JavaScript code using ts-node",
+      "label": "Run modern JavaScript code using ts-node",
       "type": "shell",
       "command": "npm run start:js --silent",
       "group": {
