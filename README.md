@@ -1,8 +1,8 @@
-# template-js-node-modern
+# 📄 template-js-node-modern
 
 Template for creating Node.js apps with modern JavaScript - transpiled down to ES2015
 
-## Features
+## ⭐ Features
 
 - Code in modern JavaScript
   - Transpiled down to `ES2015`
@@ -16,11 +16,11 @@ Template for creating Node.js apps with modern JavaScript - transpiled down to E
   - Task definitions
   - Extension recommendations
 
-## Development
+## 🛠️ Development
 
 These instructions will get you a copy of this project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+### 📋 Prerequisites
 
 - [Node.js](https://nodejs.org) - JavaScript run-time environment
   - After installing it, use `npm i` in the project's root folder to install all dependencies
@@ -32,7 +32,7 @@ This project is intended to be used with Visual Studio Code and the following ex
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integrates ESLint JavaScript into VS Code
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatter using prettier
 
-### Built-in Tasks
+### 🚀 Built-in Tasks
 
 This project uses npm scripts for running tasks:
 
