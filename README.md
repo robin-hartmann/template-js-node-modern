@@ -65,7 +65,7 @@ npm run start:js-transpiled
 npm publish
 ```
 
-VS Code tasks for `lint`, `build`, `build-only`, `start:js` and `start:js-transpiled` are also included.
+VS Code tasks are also included for `lint`, `build`, `build-only`, `start:js` and `start:js-transpiled`.
 
 ## 🔧 Built With
 
