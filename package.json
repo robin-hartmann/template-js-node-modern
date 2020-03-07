@@ -1,5 +1,5 @@
 {
-  "name": "template-js-node-modern",
+  "name": "template-node-js-modern",
   "version": "0.1.0",
   "description": "Template for creating Node.js apps with modern JavaScript - transpiled down to ES2015",
   "author": "contact.robin.hartmann@gmail.com",
