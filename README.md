@@ -69,6 +69,12 @@ VS Code tasks are also included for `lint`, `build`, `build-only`, `start:js` an
 
 ## 🧰 Built With
 
+### 📚 Resources
+
+- [`.eslintrc.js` from `create-exposed-app`](https://github.com/iamturns/create-exposed-app/blob/master/.eslintrc.js)
+
+### 🏛️ Libraries
+
 - [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript that compiles to plain JavaScript
 - [ESLint](https://eslint.org/) - Find and fix problems in your JavaScript code
 - [ts-node](https://github.com/TypeStrong/ts-node) - TypeScript execution and REPL for node.js
