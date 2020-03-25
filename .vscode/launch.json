@@ -7,7 +7,7 @@
       "name": "Launch Program",
       "runtimeArgs": ["-r", "ts-node/register"],
       "env": { "TS_NODE_PROJECT": "tsconfig.json" },
-      "args": ["${workspaceFolder}/src/bin/bin.js"],
+      "program": "${workspaceFolder}/src/bin/bin.js",
       "console": "integratedTerminal"
     }
   ]
