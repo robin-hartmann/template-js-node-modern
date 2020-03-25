@@ -46,6 +46,13 @@ module.exports = {
     // https://github.com/basarat/typescript-book/blob/master/docs/tips/defaultIsBad.md
     'import/prefer-default-export': 'off',
     'import/no-default-export': 'error',
+    'node/no-missing-import': [
+      'error',
+      {
+        // some modules like `chalk` have a `.d.ts` file as their index file
+        tryExtensions: ['.d.ts'],
+      },
+    ],
     'node/no-unsupported-features/es-syntax': [
       'error',
       {
