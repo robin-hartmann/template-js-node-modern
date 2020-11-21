@@ -1,6 +1,6 @@
 {
   "name": "template-node-js-modern",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Project Template for creating Node.js apps with modern JavaScript - transpiled down to ES2015",
   "author": "contact.robin.hartmann@gmail.com",
   "license": "MIT",
